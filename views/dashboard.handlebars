@@ -1,20 +1,41 @@
-<section class="new-post-section">
-    <button type="submit" class="btn" id="create-new-post">+ Create new post</button>
-</section>
+{{!-- User Dashboard Page --}}
+<div class="row">
+    <div class="text-center mx-auto pt-2 user-name">
+        <h2 id="blogName">{{name}}'s Blog</h2>
+    </div>
+</div>
+<div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto text-left mt-5">
+                {{#if blogPosts.length}}
+                    {{#each blogPosts as |blogPost|}}
+                        {{> dashboardPost blogPost}}
+                        <br>
+                    {{/each}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
 
+    {{#if (is_my_page user.id userId)}}
+    <div class="container">
+        <div class="row text-center">
+            <a href="/create"><button class="btn btn-dark mt-3">Create a post!</button></a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    {{else}}
+    <div class="container">
+        <div class="row justify-content-center">
+            <p>This user hasn't created any posts yet!</p>
+        </div>
+    </div>
+    {{/if}}
+</div>
 
-{{#if posts.length}}
-<section>
-    <h2>Your Dashboard</h2>
-    <ul class="post-list">
-        {{#each posts as |post|}}
-        <li>
-            {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">edit post</a>
-        </li>
-        {{/each}}
-    </ul>
-</section>
-{{/if}}
-
-<script src="/javascript/create-post.js"></script>
+<script src="/js/dashboard.js"></script>
