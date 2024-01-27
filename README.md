@@ -57,3 +57,9 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 The following animation demonstrates the application functionality:
 
 ![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
+
+## Description
+
+This project implements a model-view-control (MVC) specific set up, uses the object-relational-mapping (ORM) dependency Sequelize to connect the front-end code (UI) to the database, and Express routing. This project also utilizes handlebars templating engine which allowed data to be passed from the database and appended to the front-end in a DRY and simplified way.
+
+
