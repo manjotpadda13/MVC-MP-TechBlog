@@ -62,4 +62,9 @@ The following animation demonstrates the application functionality:
 
 This project implements a model-view-control (MVC) specific set up, uses the object-relational-mapping (ORM) dependency Sequelize to connect the front-end code (UI) to the database, and Express routing. This project also utilizes handlebars templating engine which allowed data to be passed from the database and appended to the front-end in a DRY and simplified way.
 
+## Usage
+
+Users will interact with the site completely through the frontend  They will see a public feed, and a login button where they will be prompted to either login or create an account. From there navigation of the entire application can be conducted, and users can contribute and start creating content instantly.
+
+
 
