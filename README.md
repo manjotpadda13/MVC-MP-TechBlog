@@ -68,7 +68,8 @@ Users will interact with the site completely through the frontend  They will see
 
 ## Screenshots 
 
+<img width="1440" alt="Screenshot 2024-02-03 at 11 55 25 PM" src="https://github.com/manjotpadda13/MVC-MP-TechBlog/assets/79305241/eb87757b-acc0-4b95-b540-117ba464a662">
+<img width="1440" alt="Screenshot 2024-02-03 at 11 55 03 PM" src="https://github.com/manjotpadda13/MVC-MP-TechBlog/assets/79305241/04136998-6f01-41fe-af60-5c9775f3b3cb">
 
-<img width="1440" alt="Screenshot 2024-01-26 at 4 48 49 PM" src="https://github.com/manjotpadda13/MVC-MP-TechBlog/assets/79305241/03b715d2-6119-478e-8e61-14929c8d8db6">
 
 
