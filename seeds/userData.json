@@ -1,13 +1,13 @@
 [
     {
       "name": "Janis Joplin",
-      "email": "takeanotherlittlepieceofmyheart@hotmail.com",
-      "password": "password1"
+      "email": "JanisJoplin@hotmail.com",
+      "password": "password123"
     },
     {
       "name": "Jerry Garcia",
       "email": "dancingbears@gmail.com",
-      "password": "password12"
+      "password": "password123"
     },
     {
       "name": "John Lennon",

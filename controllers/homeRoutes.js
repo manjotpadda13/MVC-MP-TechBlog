@@ -7,18 +7,18 @@ router.get("/", async (req, res) => {
   try {
     // Get all blogPosts and JOIN with user data and comment data
     const blogPostData = await BlogPost.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ["name"],
-        },
-        {
-          model: Comment,
-          attributes: ["comment_body"],
-        },
-      ],
+      // include: [
+      //   {
+      //     model: User,
+      //     attributes: ["name"],
+      //   },
+      //   {
+      //     model: Comment,
+      //     attributes: ["comment_body"],
+      //   },
+      // ],
     });
-
+console.log(blogPostData)
     // Serialize data so the template can read it
     const blogPosts = blogPostData.map((blogPost) =>
       blogPost.get({ plain: true })
