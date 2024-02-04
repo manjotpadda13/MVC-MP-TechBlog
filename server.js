@@ -16,20 +16,32 @@ const PORT = process.env.PORT || 3001;
 const hbs = exphbs.create({ helpers });
 
 // Sets session cookie properties
+// const sess = {
+//   secret: "Super secret secret",
+//   cookie: {
+//     maxAge: 1200000,
+//     httpOnly: true,
+//     secure: false,
+//     sameSite: "strict",
+//   },
+//   resave: false,
+//   saveUninitialized: true,
+//   store: new SequelizeStore({
+//     db: sequelize,
+//   }),
+// };
+
 const sess = {
-  secret: "Super secret secret",
-  cookie: {
-    maxAge: 1200000,
-    httpOnly: true,
-    secure: false,
-    sameSite: "strict",
-  },
+  secret: 'Super secret secret',
+  cookie: {},
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({
-    db: sequelize,
-  }),
+    db: sequelize
+  })
 };
+
+
 
 app.use(session(sess));
 
