@@ -66,5 +66,10 @@ This project implements a model-view-control (MVC) specific set up, uses the obj
 
 Users will interact with the site completely through the frontend  They will see a public feed, and a login button where they will be prompted to either login or create an account. From there navigation of the entire application can be conducted, and users can contribute and start creating content instantly.
 
+## Screenshots 
+
+<img width="1440" alt="Screenshot 2024-02-03 at 11 55 25 PM" src="https://github.com/manjotpadda13/MVC-MP-TechBlog/assets/79305241/eb87757b-acc0-4b95-b540-117ba464a662">
+<img width="1440" alt="Screenshot 2024-02-03 at 11 55 03 PM" src="https://github.com/manjotpadda13/MVC-MP-TechBlog/assets/79305241/04136998-6f01-41fe-af60-5c9775f3b3cb">
+
 
 
